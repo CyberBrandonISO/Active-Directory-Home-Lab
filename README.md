@@ -49,3 +49,11 @@ Next Steps
 * Learn more Windows Security Event IDs.
 * Set up a domain-joined Windows workstation.
 * Continue building hands-on SOC investigation skills.
+
+## Event ID 4624 – Successful Network Logon
+
+I had some trouble logging into my test account, Henry Buff, while working on my Active Directory lab. After troubleshooting the account and checking Event Viewer, I was able to authenticate over the network.
+
+I found Event ID 4624 showing a successful network logon (Type 3) for hbuff.
+
+![Successful Network Logon](Event-4624-successful-logon%2010%3A19.jpg)
